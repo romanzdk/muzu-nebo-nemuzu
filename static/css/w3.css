@@ -280,6 +280,11 @@ a {
     text-decoration: none;
 }
 
+#about a {
+    text-decoration: underline;
+    text-decoration-color: #c6b100;
+}
+
 .w3-wide {
     letter-spacing: 4px
 }
@@ -716,7 +721,7 @@ a {
 }
 
 .nemuzu {
-    background-color: black;
+    background-color: #e90000;
     color: white;
 }
 
@@ -734,6 +739,18 @@ a {
 .header-content {
     display: table-cell;
     vertical-align: middle;
+}
+
+ul li.w3-padding-16:before {
+    content: '✓ ';
+    color: rgb(68, 255, 0);
+}
+
+.lastUpdate {
+    text-align: right;
+    font-style: italic;
+    font-size: 12px;
+    padding-right: 20px;
 }
 
 @media (min-width:601px) {
