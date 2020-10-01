@@ -385,7 +385,8 @@ a {
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none
+    user-select: none;
+    color: #e9d000;
 }
 
 .w3-disabled,
@@ -436,7 +437,7 @@ a {
 
 .w3-tooltip,
 .w3-display-container {
-    position: relative
+    position: relative;
 }
 
 .w3-tooltip .w3-text {

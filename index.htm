@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="static/css/w3.css">
     <link rel="stylesheet" href="static/css/w3-theme-black.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/e7008735eb.js"></script>
 </head>
 
 <body id="myPage" cz-shortcut-listen="true">
@@ -92,7 +92,7 @@
 
     <!-- places detail -->
     <div class="w3-row-padding w3-center w3-padding-64" id="divadlo">
-        <h2><img src="static/img/theater.png" height="50px"> DO DIVADLA</h2>
+        <h2><img src="static/img/theater.png" height="50px"> <span class="w3-border-yellow w3-bottombar">DO DIVADLA</span></h2>
         <div class="w3-half w3-margin-bottom">
             <ul class="w3-ul w3-border w3-hover-shadow">
                 <li class="muzu">
@@ -107,7 +107,7 @@
     </div>
 
     <div class="w3-row-padding2 w3-center w3-padding-64" id="kino">
-        <h2><img src="static/img/clapperboard.png" alt="Boss" height="50px"> DO KINA</h2>
+        <h2><img src="static/img/clapperboard.png" alt="Boss" height="50px"> <span class="w3-border-yellow w3-bottombar">DO KINA</span></h2>
         <div class="w3-half w3-margin-bottom">
             <ul class="w3-ul w3-border w3-hover-shadow">
                 <li class="muzu">
@@ -122,7 +122,7 @@
     </div>
 
     <div class="w3-row-padding w3-center w3-padding-64" id="sport">
-        <h2><img src="static/img/sport.png" alt="Boss" height="50px"> NA SPORT</h2>
+        <h2><img src="static/img/sport.png" alt="Boss" height="50px"> <span class="w3-border-yellow w3-bottombar">NA SPORT</span></h2>
         <div class="w3-half w3-margin-bottom">
             <ul class="w3-ul w3-border w3-hover-shadow">
                 <li class="muzu">
@@ -137,7 +137,7 @@
     </div>
 
     <div class="w3-row-padding2 w3-center w3-padding-64" id="nakup">
-        <h2><img src="static/img/shopping-basket.png" alt="Boss" height="50px"> NA NÁKUP</h2>
+        <h2><img src="static/img/shopping-basket.png" alt="Boss" height="50px"> <span class="w3-border-yellow w3-bottombar">NA NÁKUP</span></h2>
         <div class="w3-half w3-margin-bottom">
             <ul class="w3-ul w3-border w3-hover-shadow">
                 <li class="muzu">
@@ -152,7 +152,7 @@
     </div>
 
     <div class="w3-row-padding w3-center w3-padding-64" id="restaurace">
-        <h2><img src="static/img/fork.png" alt="Boss" height="50px"> DO RESTAURACE</h2>
+        <h2><img src="static/img/fork.png" alt="Boss" height="50px"> <span class="w3-border-yellow w3-bottombar">DO RESTAURACE</span></h2>
         <div class="w3-half w3-margin-bottom">
             <ul class="w3-ul w3-border w3-hover-shadow">
                 <li class="muzu">
@@ -167,7 +167,7 @@
     </div>
 
     <div class="w3-row-padding2 w3-center w3-padding-64" id="kavarna">
-        <h2><img src="static/img/coffee-cup.png" alt="Boss" height="50px"> DO KAVÁRNY</h2>
+        <h2><img src="static/img/coffee-cup.png" alt="Boss" height="50px"> <span class="w3-border-yellow w3-bottombar">DO KAVÁRNY</span></h2>
         <div class="w3-half w3-margin-bottom">
             <ul class="w3-ul w3-border w3-hover-shadow">
                 <li class="muzu">
@@ -185,22 +185,17 @@
     <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
         <!-- <div class="w3-row"> -->
         <div class="w3-padding-16"><span class="w3-xlarge w3-border-yellow w3-bottombar">O projektu</span></div>
-        <p><i class="fa fa-map-marker w3-text-yellow w3-xlarge"></i>&nbsp;&nbsp;Chicago, US</p>
-        <p><i class="fa fa-phone w3-text-yellow w3-xlarge"></i>&nbsp;&nbsp;+00 1515151515</p>
-        <p><i class="fa fa-envelope-o w3-text-yellow w3-xlarge"></i>&nbsp;&nbsp;test@test.com</p>
         <!-- </div> -->
     </div>
 
     <!-- Footer -->
     <footer class="w3-container w3-padding-64-top w3-theme-d1 w3-center">
-        <a class="w3-button w3-large w3-yellow" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
-        <a class="w3-button w3-large w3-yellow" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
-        <a class="w3-button w3-large w3-yellow w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-        <p>© 2020 Roman Zydyk </p>
+        <a class="w3-button w3-large w3-yellow" href="https://linkedin.com/in/romanzdk" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+        <p>© 2020 <a href="https://romanzdk.com">Roman Zydyk</a> </p>
 
-        <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
-            <span class="w3-text w3-padding w3-yellow w3-hide-small">Go To Top</span>
-            <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+        <div style="position:fixed;bottom:20px;right:20px;z-index:1;" class="w3-tooltip w3-right">
+            <span class="w3-text w3-padding w3-yellow w3-hide-small">Zpět na začátek</span>
+            <a class="w3-button w3-theme" href="#"><span class="w3-xlarge">
     <i class="fa fa-chevron-circle-up"></i></span></a>
         </div>
     </footer>
